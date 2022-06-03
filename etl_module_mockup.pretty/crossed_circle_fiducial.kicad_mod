@@ -1,0 +1,17 @@
+(footprint "crossed_circle_fiducial" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5DEEB95A)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 969449fb-3ffa-4467-817f-e21d68194dc8)
+  )
+  (fp_text value "crossed_circle_fiducial" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 76d49c19-9411-4981-b897-d8b11985db6b)
+  )
+  (fp_line (start 0.25 0) (end -0.25 0) (layer "F.Cu") (width 0.07) (tstamp 2d6645e2-2ae0-412e-8e8e-5efc1c4e1f13))
+  (fp_line (start 0 -0.25) (end 0 0.25) (layer "F.Cu") (width 0.07) (tstamp c78344dd-4e01-4ed1-8cb8-9005cf15ed9d))
+  (fp_circle (center 0 0) (end 0.2 0) (layer "F.Cu") (width 0.07) (fill none) (tstamp 8a802d9b-9004-45f9-8a1a-156f80d270f9))
+  (fp_circle (center 0 0) (end 0.01 0) (layer "F.Mask") (width 0.6) (fill none) (tstamp b76b12e5-01d3-4741-8e98-d66e912ba28a))
+)
