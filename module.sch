@@ -1,0 +1,675 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title "CMS ETL Module PCB"
+Date "2021-04-08"
+Rev "v0"
+Comp "Boston University EDF"
+Comment1 "AP"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L etrocv2:ETROCv2 U1
+U 1 1 608130D6
+P 2400 1100
+AR Path="/60809D79/608130D6" Ref="U1"  Part="1" 
+AR Path="/6086F995/608130D6" Ref="U2"  Part="1" 
+AR Path="/60870422/608130D6" Ref="U3"  Part="1" 
+AR Path="/60870C03/608130D6" Ref="U4"  Part="1" 
+F 0 "U3" H 2708 1265 50  0000 C CNN
+F 1 "ETROCv2" H 2708 1174 50  0000 C CNN
+F 2 "etl_module_mockup:ETROCv2_64pad" H 2850 1100 50  0001 C CNN
+F 3 "" H 2850 1100 50  0001 C CNN
+F 4 "DNP" H 2400 1100 50  0001 C CNN "Mfg"
+F 5 "DNP" H 2400 1100 50  0001 C CNN "Part Number"
+	1    2400 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1200 3200 1200
+Wire Wire Line
+	3000 1300 3100 1300
+Wire Wire Line
+	3100 1300 3100 1500
+Wire Wire Line
+	3100 1500 3000 1500
+Wire Wire Line
+	3100 1500 3100 1700
+Wire Wire Line
+	3100 1700 3000 1700
+Connection ~ 3100 1500
+Wire Wire Line
+	3100 1700 3100 1900
+Wire Wire Line
+	3100 1900 3000 1900
+Connection ~ 3100 1700
+Wire Wire Line
+	3100 1900 3100 2500
+Wire Wire Line
+	3100 2500 3000 2500
+Connection ~ 3100 1900
+Wire Wire Line
+	3100 2500 3100 2800
+Wire Wire Line
+	3100 2800 3000 2800
+Connection ~ 3100 2500
+Wire Wire Line
+	3100 2800 3100 3000
+Wire Wire Line
+	3100 3000 3000 3000
+Connection ~ 3100 2800
+Wire Wire Line
+	3100 3000 3100 3200
+Wire Wire Line
+	3100 3200 3000 3200
+Connection ~ 3100 3000
+Wire Wire Line
+	3100 3200 3100 3400
+Wire Wire Line
+	3100 3400 3000 3400
+Connection ~ 3100 3200
+Wire Wire Line
+	3100 3400 3100 3600
+Wire Wire Line
+	3100 3600 3000 3600
+Connection ~ 3100 3400
+Wire Wire Line
+	3100 3600 3100 4200
+Wire Wire Line
+	3100 4200 3000 4200
+Connection ~ 3100 3600
+Wire Wire Line
+	3100 4200 3100 4400
+Wire Wire Line
+	3100 4400 3000 4400
+Connection ~ 3100 4200
+Wire Wire Line
+	3100 4400 3100 5000
+Wire Wire Line
+	3100 5600 3000 5600
+Connection ~ 3100 4400
+Wire Wire Line
+	3100 5400 3000 5400
+Connection ~ 3100 5400
+Wire Wire Line
+	3100 5400 3100 5600
+Wire Wire Line
+	3100 5200 3000 5200
+Connection ~ 3100 5200
+Wire Wire Line
+	3100 5200 3100 5400
+Wire Wire Line
+	3000 5000 3100 5000
+Connection ~ 3100 5000
+Wire Wire Line
+	3100 5000 3100 5200
+Wire Wire Line
+	3100 5600 3100 5800
+Wire Wire Line
+	3100 6000 3000 6000
+Connection ~ 3100 5600
+Wire Wire Line
+	3100 6000 3100 6200
+Wire Wire Line
+	3100 6200 3000 6200
+Connection ~ 3100 6000
+Wire Wire Line
+	3100 6200 3100 6400
+Wire Wire Line
+	3100 6400 3000 6400
+Connection ~ 3100 6200
+Wire Wire Line
+	3100 6400 3100 6600
+Wire Wire Line
+	3100 6600 3000 6600
+Connection ~ 3100 6400
+Wire Wire Line
+	3100 6600 3100 7100
+Wire Wire Line
+	3100 7100 3000 7100
+Connection ~ 3100 6600
+Wire Wire Line
+	3000 7000 3200 7000
+Wire Wire Line
+	3200 7000 3200 6500
+Wire Wire Line
+	3200 6500 3000 6500
+Wire Wire Line
+	3200 1400 3200 1200
+Connection ~ 3200 1200
+Wire Wire Line
+	3200 1200 3450 1200
+Wire Wire Line
+	3000 1400 3200 1400
+Wire Wire Line
+	3200 1400 3200 1600
+Wire Wire Line
+	3200 1600 3000 1600
+Connection ~ 3200 1400
+Wire Wire Line
+	3200 1600 3200 1800
+Wire Wire Line
+	3200 1800 3000 1800
+Connection ~ 3200 1600
+Wire Wire Line
+	3200 1800 3200 2400
+Wire Wire Line
+	3200 2400 3000 2400
+Connection ~ 3200 1800
+Wire Wire Line
+	3200 2700 3000 2700
+Wire Wire Line
+	3200 2400 3200 2700
+Connection ~ 3200 2400
+Wire Wire Line
+	3200 2900 3000 2900
+Connection ~ 3200 2700
+Connection ~ 3200 2900
+Wire Wire Line
+	3000 3100 3200 3100
+Wire Wire Line
+	3200 3100 3200 3300
+Wire Wire Line
+	3200 3300 3000 3300
+Connection ~ 3200 3100
+Wire Wire Line
+	3200 3300 3200 3500
+Wire Wire Line
+	3200 3500 3000 3500
+Connection ~ 3200 3300
+Wire Wire Line
+	3200 3500 3200 4100
+Wire Wire Line
+	3200 4100 3000 4100
+Connection ~ 3200 3500
+Wire Wire Line
+	3200 4100 3200 4300
+Wire Wire Line
+	3200 4300 3000 4300
+Connection ~ 3200 4100
+Wire Wire Line
+	3200 4300 3200 4900
+Wire Wire Line
+	3200 4900 3000 4900
+Connection ~ 3200 4300
+Wire Wire Line
+	3200 4900 3200 5100
+Wire Wire Line
+	3200 5100 3000 5100
+Connection ~ 3200 4900
+Wire Wire Line
+	3200 5100 3200 5300
+Wire Wire Line
+	3200 5300 3000 5300
+Connection ~ 3200 5100
+Wire Wire Line
+	3200 5300 3200 5500
+Wire Wire Line
+	3200 5500 3000 5500
+Connection ~ 3200 5300
+Wire Wire Line
+	3200 5500 3200 5700
+Connection ~ 3200 5500
+Wire Wire Line
+	3000 5800 3100 5800
+Connection ~ 3100 5800
+Wire Wire Line
+	3100 5800 3100 6000
+Connection ~ 3200 5700
+Wire Wire Line
+	3000 5900 3200 5900
+Wire Wire Line
+	3200 5700 3200 5900
+Wire Wire Line
+	3200 5900 3200 6100
+Wire Wire Line
+	3200 6100 3000 6100
+Connection ~ 3200 5900
+Wire Wire Line
+	3200 6100 3200 6300
+Wire Wire Line
+	3200 6300 3000 6300
+Connection ~ 3200 6100
+Wire Wire Line
+	3200 6300 3200 6500
+Connection ~ 3200 6300
+Connection ~ 3200 6500
+Wire Wire Line
+	3400 2300 3000 2300
+Wire Wire Line
+	3400 2200 3000 2200
+Wire Wire Line
+	3400 2100 3000 2100
+Wire Wire Line
+	3400 2000 3000 2000
+Wire Wire Line
+	3400 3700 3000 3700
+Wire Wire Line
+	3400 3800 3000 3800
+Wire Wire Line
+	3400 4000 3000 4000
+Wire Wire Line
+	3400 4500 3000 4500
+Wire Wire Line
+	3400 4600 3000 4600
+Wire Wire Line
+	3900 4700 3450 4700
+Wire Wire Line
+	3900 4800 3350 4800
+Wire Wire Line
+	3400 6700 3000 6700
+Wire Wire Line
+	3400 6800 3000 6800
+Wire Wire Line
+	3400 6900 3000 6900
+Text HLabel 3400 2000 2    50   Input ~ 0
+ADDR0
+Text HLabel 3400 2100 2    50   Input ~ 0
+ADDR1
+Text HLabel 3400 2200 2    50   Input ~ 0
+ADDR2
+Text HLabel 3400 2300 2    50   Input ~ 0
+ADDR3
+Text HLabel 4500 2600 2    50   Input ~ 0
+VREF
+Text HLabel 3400 3700 2    50   Input ~ 0
+DO_P
+Text HLabel 3400 3800 2    50   Input ~ 0
+DO_N
+Text HLabel 3400 3900 2    50   Input ~ 0
+DI_P
+Text HLabel 3400 4000 2    50   Input ~ 0
+DI_N
+Text HLabel 3400 4500 2    50   Input ~ 0
+FC_P
+Text HLabel 3400 4600 2    50   Input ~ 0
+FC_N
+Text HLabel 3900 4700 2    50   Input ~ 0
+CLK_P
+Text HLabel 3900 4800 2    50   Input ~ 0
+CLK_N
+Text HLabel 3400 6700 2    50   Input ~ 0
+SCL
+Text HLabel 3400 6800 2    50   Input ~ 0
+SDA
+Text HLabel 3400 6900 2    50   Input ~ 0
+RSTN
+Wire Wire Line
+	3000 3900 3400 3900
+Text HLabel 3450 1200 2    50   Input ~ 0
+1V2
+Wire Wire Line
+	3200 2900 3200 3100
+Wire Wire Line
+	3200 2700 3200 2900
+Wire Wire Line
+	3000 5700 3200 5700
+$Comp
+L power:GND #PWR0120
+U 1 1 60801456
+P 3100 7100
+AR Path="/60870C03/60801456" Ref="#PWR0120"  Part="1" 
+AR Path="/60809D79/60801456" Ref="#PWR0108"  Part="1" 
+AR Path="/6086F995/60801456" Ref="#PWR0112"  Part="1" 
+AR Path="/60870422/60801456" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 3100 6850 50  0001 C CNN
+F 1 "GND" H 3105 6927 50  0000 C CNN
+F 2 "" H 3100 7100 50  0001 C CNN
+F 3 "" H 3100 7100 50  0001 C CNN
+	1    3100 7100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 7100
+$Comp
+L Device:C C39
+U 1 1 608B5AF3
+P 4450 1750
+AR Path="/60870C03/608B5AF3" Ref="C39"  Part="1" 
+AR Path="/60809D79/608B5AF3" Ref="C3"  Part="1" 
+AR Path="/6086F995/608B5AF3" Ref="C15"  Part="1" 
+AR Path="/60870422/608B5AF3" Ref="C27"  Part="1" 
+F 0 "C27" H 4565 1796 50  0000 L CNN
+F 1 "0.1uF" H 4565 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 4488 1600 50  0001 C CNN
+F 3 "~" H 4450 1750 50  0001 C CNN
+F 4 "Murata" H 4450 1750 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 4450 1750 50  0001 C CNN "Part Number"
+	1    4450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C41
+U 1 1 608B5D65
+P 4800 1750
+AR Path="/60870C03/608B5D65" Ref="C41"  Part="1" 
+AR Path="/60809D79/608B5D65" Ref="C5"  Part="1" 
+AR Path="/6086F995/608B5D65" Ref="C17"  Part="1" 
+AR Path="/60870422/608B5D65" Ref="C29"  Part="1" 
+F 0 "C29" H 4915 1796 50  0000 L CNN
+F 1 "0.1uF" H 4915 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 4838 1600 50  0001 C CNN
+F 3 "~" H 4800 1750 50  0001 C CNN
+F 4 "Murata" H 4800 1750 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 4800 1750 50  0001 C CNN "Part Number"
+	1    4800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C42
+U 1 1 608B6985
+P 5150 1750
+AR Path="/60870C03/608B6985" Ref="C42"  Part="1" 
+AR Path="/60809D79/608B6985" Ref="C6"  Part="1" 
+AR Path="/6086F995/608B6985" Ref="C18"  Part="1" 
+AR Path="/60870422/608B6985" Ref="C30"  Part="1" 
+F 0 "C30" H 5265 1796 50  0000 L CNN
+F 1 "0.1uF" H 5265 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 5188 1600 50  0001 C CNN
+F 3 "~" H 5150 1750 50  0001 C CNN
+F 4 "Murata" H 5150 1750 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 5150 1750 50  0001 C CNN "Part Number"
+	1    5150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C43
+U 1 1 608B9800
+P 5500 1750
+AR Path="/60870C03/608B9800" Ref="C43"  Part="1" 
+AR Path="/60809D79/608B9800" Ref="C7"  Part="1" 
+AR Path="/6086F995/608B9800" Ref="C19"  Part="1" 
+AR Path="/60870422/608B9800" Ref="C31"  Part="1" 
+F 0 "C31" H 5615 1796 50  0000 L CNN
+F 1 "0.1uF" H 5615 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 5538 1600 50  0001 C CNN
+F 3 "~" H 5500 1750 50  0001 C CNN
+F 4 "Murata" H 5500 1750 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 5500 1750 50  0001 C CNN "Part Number"
+	1    5500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C44
+U 1 1 608BC5AB
+P 5850 1750
+AR Path="/60870C03/608BC5AB" Ref="C44"  Part="1" 
+AR Path="/60809D79/608BC5AB" Ref="C8"  Part="1" 
+AR Path="/6086F995/608BC5AB" Ref="C20"  Part="1" 
+AR Path="/60870422/608BC5AB" Ref="C32"  Part="1" 
+F 0 "C32" H 5965 1796 50  0000 L CNN
+F 1 "0.1uF" H 5965 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 5888 1600 50  0001 C CNN
+F 3 "~" H 5850 1750 50  0001 C CNN
+F 4 "Murata" H 5850 1750 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 5850 1750 50  0001 C CNN "Part Number"
+	1    5850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C45
+U 1 1 608BF3BD
+P 6200 1750
+AR Path="/60870C03/608BF3BD" Ref="C45"  Part="1" 
+AR Path="/60809D79/608BF3BD" Ref="C9"  Part="1" 
+AR Path="/6086F995/608BF3BD" Ref="C21"  Part="1" 
+AR Path="/60870422/608BF3BD" Ref="C33"  Part="1" 
+F 0 "C33" H 6315 1796 50  0000 L CNN
+F 1 "0.1uF" H 6315 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 6238 1600 50  0001 C CNN
+F 3 "~" H 6200 1750 50  0001 C CNN
+F 4 "Murata" H 6200 1750 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 6200 1750 50  0001 C CNN "Part Number"
+	1    6200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C46
+U 1 1 608C222F
+P 6550 1750
+AR Path="/60870C03/608C222F" Ref="C46"  Part="1" 
+AR Path="/60809D79/608C222F" Ref="C10"  Part="1" 
+AR Path="/6086F995/608C222F" Ref="C22"  Part="1" 
+AR Path="/60870422/608C222F" Ref="C34"  Part="1" 
+F 0 "C34" H 6665 1796 50  0000 L CNN
+F 1 "0.1uF" H 6665 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 6588 1600 50  0001 C CNN
+F 3 "~" H 6550 1750 50  0001 C CNN
+F 4 "Murata" H 6550 1750 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 6550 1750 50  0001 C CNN "Part Number"
+	1    6550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C47
+U 1 1 608C50A5
+P 6900 1750
+AR Path="/60870C03/608C50A5" Ref="C47"  Part="1" 
+AR Path="/60809D79/608C50A5" Ref="C11"  Part="1" 
+AR Path="/6086F995/608C50A5" Ref="C23"  Part="1" 
+AR Path="/60870422/608C50A5" Ref="C35"  Part="1" 
+F 0 "C35" H 7015 1796 50  0000 L CNN
+F 1 "0.1uF" H 7015 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 6938 1600 50  0001 C CNN
+F 3 "~" H 6900 1750 50  0001 C CNN
+F 4 "Murata" H 6900 1750 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 6900 1750 50  0001 C CNN "Part Number"
+	1    6900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 608CB3E1
+P 4450 1100
+AR Path="/60870C03/608CB3E1" Ref="C38"  Part="1" 
+AR Path="/60809D79/608CB3E1" Ref="C2"  Part="1" 
+AR Path="/6086F995/608CB3E1" Ref="C14"  Part="1" 
+AR Path="/60870422/608CB3E1" Ref="C26"  Part="1" 
+F 0 "C26" H 4565 1146 50  0000 L CNN
+F 1 "1uF" H 4565 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4488 950 50  0001 C CNN
+F 3 "~" H 4450 1100 50  0001 C CNN
+F 4 "AVX" H 4450 1100 50  0001 C CNN "Mfg"
+F 5 "04023D105KAT2A" H 4450 1100 50  0001 C CNN "Part Number"
+	1    4450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C40
+U 1 1 608CE2B4
+P 4800 1100
+AR Path="/60870C03/608CE2B4" Ref="C40"  Part="1" 
+AR Path="/60809D79/608CE2B4" Ref="C4"  Part="1" 
+AR Path="/6086F995/608CE2B4" Ref="C16"  Part="1" 
+AR Path="/60870422/608CE2B4" Ref="C28"  Part="1" 
+F 0 "C28" H 4915 1146 50  0000 L CNN
+F 1 "1uF" H 4915 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4838 950 50  0001 C CNN
+F 3 "~" H 4800 1100 50  0001 C CNN
+F 4 "AVX" H 4800 1100 50  0001 C CNN "Mfg"
+F 5 "04023D105KAT2A" H 4800 1100 50  0001 C CNN "Part Number"
+	1    4800 1100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4150 950  0    50   Input ~ 0
+1V2
+Text HLabel 4150 1600 0    50   Input ~ 0
+1V2
+Wire Wire Line
+	4150 950  4450 950 
+Connection ~ 4450 950 
+Wire Wire Line
+	4450 950  4800 950 
+Wire Wire Line
+	4150 1600 4450 1600
+Connection ~ 4450 1600
+Wire Wire Line
+	4450 1600 4800 1600
+Connection ~ 4800 1600
+Wire Wire Line
+	4800 1600 5150 1600
+Connection ~ 5150 1600
+Wire Wire Line
+	5150 1600 5500 1600
+Connection ~ 5500 1600
+Wire Wire Line
+	5500 1600 5850 1600
+Connection ~ 5850 1600
+Wire Wire Line
+	5850 1600 6200 1600
+Connection ~ 6200 1600
+Wire Wire Line
+	6200 1600 6550 1600
+Connection ~ 6550 1600
+Wire Wire Line
+	6550 1600 6900 1600
+Connection ~ 6900 1600
+Wire Wire Line
+	6900 1600 7300 1600
+Wire Wire Line
+	4800 1250 4450 1250
+Wire Wire Line
+	4450 1900 4800 1900
+Connection ~ 4800 1900
+Wire Wire Line
+	4800 1900 5150 1900
+Connection ~ 5150 1900
+Wire Wire Line
+	5150 1900 5500 1900
+Connection ~ 5500 1900
+Wire Wire Line
+	5500 1900 5850 1900
+Connection ~ 5850 1900
+Wire Wire Line
+	5850 1900 6200 1900
+Connection ~ 6200 1900
+Wire Wire Line
+	6200 1900 6550 1900
+Connection ~ 6550 1900
+Wire Wire Line
+	6550 1900 6900 1900
+Connection ~ 6900 1900
+Wire Wire Line
+	6900 1900 7300 1900
+$Comp
+L power:GND #PWR0121
+U 1 1 608DF6BF
+P 4450 1900
+AR Path="/60870C03/608DF6BF" Ref="#PWR0121"  Part="1" 
+AR Path="/60809D79/608DF6BF" Ref="#PWR0109"  Part="1" 
+AR Path="/6086F995/608DF6BF" Ref="#PWR0113"  Part="1" 
+AR Path="/60870422/608DF6BF" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 4450 1650 50  0001 C CNN
+F 1 "GND" H 4455 1727 50  0000 C CNN
+F 2 "" H 4450 1900 50  0001 C CNN
+F 3 "" H 4450 1900 50  0001 C CNN
+	1    4450 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 1900
+$Comp
+L power:GND #PWR0122
+U 1 1 608E0907
+P 4450 1250
+AR Path="/60870C03/608E0907" Ref="#PWR0122"  Part="1" 
+AR Path="/60809D79/608E0907" Ref="#PWR0110"  Part="1" 
+AR Path="/6086F995/608E0907" Ref="#PWR0114"  Part="1" 
+AR Path="/60870422/608E0907" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 4450 1000 50  0001 C CNN
+F 1 "GND" H 4455 1077 50  0000 C CNN
+F 2 "" H 4450 1250 50  0001 C CNN
+F 3 "" H 4450 1250 50  0001 C CNN
+	1    4450 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 1250
+$Comp
+L Device:C C48
+U 1 1 608C7FA6
+P 7300 1750
+AR Path="/60870C03/608C7FA6" Ref="C48"  Part="1" 
+AR Path="/60809D79/608C7FA6" Ref="C12"  Part="1" 
+AR Path="/6086F995/608C7FA6" Ref="C24"  Part="1" 
+AR Path="/60870422/608C7FA6" Ref="C36"  Part="1" 
+F 0 "C36" H 7415 1796 50  0000 L CNN
+F 1 "0.1uF" H 7415 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7338 1600 50  0001 C CNN
+F 3 "~" H 7300 1750 50  0001 C CNN
+F 4 "Murata" H 7300 1750 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 7300 1750 50  0001 C CNN "Part Number"
+	1    7300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C37
+U 1 1 608E8600
+P 3800 2900
+AR Path="/60870C03/608E8600" Ref="C37"  Part="1" 
+AR Path="/60809D79/608E8600" Ref="C1"  Part="1" 
+AR Path="/6086F995/608E8600" Ref="C13"  Part="1" 
+AR Path="/60870422/608E8600" Ref="C25"  Part="1" 
+F 0 "C25" H 3915 2946 50  0000 L CNN
+F 1 "0.1uF" H 3915 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3838 2750 50  0001 C CNN
+F 3 "~" H 3800 2900 50  0001 C CNN
+F 4 "Murata" H 3800 2900 50  0001 C CNN "Mfg"
+F 5 "GRM033Z71C104ME14D" H 3800 2900 50  0001 C CNN "Part Number"
+	1    3800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 608ECAF4
+P 3800 3050
+AR Path="/60870C03/608ECAF4" Ref="#PWR0123"  Part="1" 
+AR Path="/60809D79/608ECAF4" Ref="#PWR0111"  Part="1" 
+AR Path="/6086F995/608ECAF4" Ref="#PWR0115"  Part="1" 
+AR Path="/60870422/608ECAF4" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 3800 2800 50  0001 C CNN
+F 1 "GND" H 3805 2877 50  0000 C CNN
+F 2 "" H 3800 3050 50  0001 C CNN
+F 3 "" H 3800 3050 50  0001 C CNN
+	1    3800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2600 3800 2600
+Wire Wire Line
+	3800 2750 3800 2600
+Connection ~ 3800 2600
+Wire Wire Line
+	3800 2600 4500 2600
+$Comp
+L Device:R_US R10
+U 1 1 607033C8
+P 3450 5050
+AR Path="/60870422/607033C8" Ref="R10"  Part="1" 
+AR Path="/60809D79/607033C8" Ref="R9"  Part="1" 
+AR Path="/60870C03/607033C8" Ref="R11"  Part="1" 
+AR Path="/6086F995/607033C8" Ref="R12"  Part="1" 
+F 0 "R10" H 3518 5096 50  0000 L CNN
+F 1 "100R" H 3518 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 3490 5040 50  0001 C CNN
+F 3 "~" H 3450 5050 50  0001 C CNN
+F 4 "Vishay Dale" H 3450 5050 50  0001 C CNN "Mfg"
+F 5 "CRCW0201100RFKED" H 3450 5050 50  0001 C CNN "Part Number"
+	1    3450 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4900 3450 4700
+Connection ~ 3450 4700
+Wire Wire Line
+	3450 4700 3000 4700
+Wire Wire Line
+	3350 5200 3350 4800
+Wire Wire Line
+	3350 5200 3450 5200
+Connection ~ 3350 4800
+Wire Wire Line
+	3350 4800 3000 4800
+$EndSCHEMATC
